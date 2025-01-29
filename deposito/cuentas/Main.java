@@ -1,10 +1,20 @@
+/**
+ * Comentarios para la tarea 04 de entornos de desarrollo sobre la clase main cuentas la cual interactua con la 
+ * clase CCuenta de su mismo paquete mediante el uso de métodos, getters y setters.Esta es la clase principal, la 
+ * cual ejecuta el programa e introduce y consulta los datos en la classe CCuenta. Estos comentarios se introducen 
+ * como realización de la tarea y se añaden despues de ellos el autor y la versión.
+ * @author santos_mesones_saul
+ * @version febrero_2025
+ */
 package cuentas;
 public class Main {
-
+// Método main
     public static void main(float cantidad) {
         operativa_cuenta();
     }
-
+/**
+ * Método operativa_cuenta creado con refactor durante la elaboracion de la tarea
+ */
 	public static void operativa_cuenta() {
 		CCuenta cuenta1;
 		double saldoActual;
